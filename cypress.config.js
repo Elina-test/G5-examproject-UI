@@ -4,6 +4,7 @@ module.exports = defineConfig({
   viewportHeight: 1080,
   viewportWidth: 1920, 
   watchForFileChanges: false,
+  defaultCommandTimeout: 10000,
   e2e: {
     baseUrl: 'https://juice-shop-sanitarskyi.herokuapp.com',
     setupNodeEvents(on, config) {
